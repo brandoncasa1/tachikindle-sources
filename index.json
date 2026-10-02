@@ -73,8 +73,8 @@
       "lang": "es",
       "version_code": 1,
       "content_warning": "MIXED",
-      "path": "sources/es/mangadex_es.tkext.json"
-    },
+      "path": "sources/es/mangadex.tkext.json"
+    }
     {
       "id": "es.m440",
       "name": "M440",
