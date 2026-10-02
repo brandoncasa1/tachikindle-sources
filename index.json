@@ -36,14 +36,6 @@
       "path": "sources/en/mangabuddy.tkext.json"
     },
     {
-      "id": "en.mangadex",
-      "name": "MangaDex",
-      "lang": "en",
-      "version_code": 1,
-      "content_warning": "MIXED",
-      "path": "sources/en/mangadex.tkext.json"
-    },
-    {
       "id": "en.mangakatana",
       "name": "MangaKatana",
       "lang": "en",
@@ -68,22 +60,28 @@
       "path": "sources/en/weebcentral.tkext.json"
     },
     {
-  "id": "es.mangadex",
-  "name": "MangaDex (ES)",
-  "lang": "es",
-  "version_code": 1,
-  "content_warning": "SAFE",
-  "manifest": "sources/es/mangadex_es.tkext.json"
-},
-{
-  "id": "es.m440",
-  "name": "M440",
-  "lang": "es",
-  "version_code": 1,
-  "content_warning": "MIXED",
-  "manifest": "sources/es/m440.tkext.json"
-}
-
-    
+      "id": "en.mangadex",
+      "name": "MangaDex",
+      "lang": "en",
+      "version_code": 1,
+      "content_warning": "MIXED",
+      "path": "sources/en/mangadex.tkext.json"
+    },
+    {
+      "id": "es.mangadex",
+      "name": "MangaDex (ES)",
+      "lang": "es",
+      "version_code": 1,
+      "content_warning": "MIXED",
+      "path": "sources/es/mangadex_es.tkext.json"
+    },
+    {
+      "id": "es.m440",
+      "name": "M440",
+      "lang": "es",
+      "version_code": 1,
+      "content_warning": "MIXED",
+      "path": "sources/es/m440.tkext.json"
+    }
   ]
 }
