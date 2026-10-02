@@ -1,3 +1,4 @@
+
 {
   "repo_name": "TachiKindle Sources",
   "repo_format_version": 1,
@@ -65,6 +66,24 @@
       "version_code": 1,
       "content_warning": "MIXED",
       "path": "sources/en/weebcentral.tkext.json"
-    }
+    },
+    {
+  "id": "es.mangadex",
+  "name": "MangaDex (ES)",
+  "lang": "es",
+  "version_code": 1,
+  "content_warning": "SAFE",
+  "manifest": "sources/es/mangadex_es.tkext.json"
+},
+{
+  "id": "es.m440",
+  "name": "M440",
+  "lang": "es",
+  "version_code": 1,
+  "content_warning": "MIXED",
+  "manifest": "sources/es/m440.tkext.json"
+}
+
+    
   ]
 }
