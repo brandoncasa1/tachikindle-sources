@@ -4,62 +4,6 @@
   "repo_format_version": 1,
   "extensions": [
     {
-      "id": "en.asurascans",
-      "name": "Asura Scans",
-      "lang": "en",
-      "version_code": 1,
-      "content_warning": "MIXED",
-      "path": "sources/en/asurascans.tkext.json"
-    },
-    {
-      "id": "en.batcave",
-      "name": "BatCave",
-      "lang": "en",
-      "version_code": 1,
-      "content_warning": "SAFE",
-      "path": "sources/en/batcave.tkext.json"
-    },
-    {
-      "id": "en.comick",
-      "name": "Comick",
-      "lang": "en",
-      "version_code": 1,
-      "content_warning": "MIXED",
-      "path": "sources/en/comick.tkext.json"
-    },
-    {
-      "id": "en.mangabuddy",
-      "name": "MangaBuddy",
-      "lang": "en",
-      "version_code": 1,
-      "content_warning": "MIXED",
-      "path": "sources/en/mangabuddy.tkext.json"
-    },
-    {
-      "id": "en.mangakatana",
-      "name": "MangaKatana",
-      "lang": "en",
-      "version_code": 1,
-      "content_warning": "SAFE",
-      "path": "sources/en/mangakatana.tkext.json"
-    },
-    {
-      "id": "en.toonily",
-      "name": "Toonily",
-      "lang": "en",
-      "version_code": 1,
-      "content_warning": "MIXED",
-      "path": "sources/en/toonily.tkext.json"
-    },
-    {
-      "id": "en.weebcentral",
-      "name": "Weeb Central",
-      "lang": "en",
-      "version_code": 1,
-      "content_warning": "MIXED",
-      "path": "sources/en/weebcentral.tkext.json"
-    },
-    {
       "id": "en.mangadex",
       "name": "MangaDex",
       "lang": "en",
