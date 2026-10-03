@@ -5,7 +5,7 @@
   "lang": "es",
   "base_url": "https://m440.in",
   "version_code": 1,
-  "source_script": "sources/en/m440_script",
+  "source_script": "sources/es/m440_script",
   "content_warning": "SAFE",
   "endpoints": {},
   "selectors": {
