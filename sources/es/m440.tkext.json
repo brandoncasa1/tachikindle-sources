@@ -5,8 +5,8 @@
   "lang": "es",
   "base_url": "https://m440.in",
   "version_code": 1,
-  "source_script": "sources/es/m440_script",
-  "content_warning": "SAFE",
+  "source_script": "sources/es/m440_script.lua",
+  "content_warning": "MIXED",
   "endpoints": {},
   "selectors": {
     "manga_list_item": null, "manga_title": null, "manga_url": null,
