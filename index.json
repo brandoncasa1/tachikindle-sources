@@ -80,7 +80,7 @@
       "version_code": 1,
       "lang": "es",
       "content_warning": "MIXED",
-      "path": "sources/m440.tkext.json"
+      "path": "sources/es/m440.tkext.json"
     },
     {
       "id": "es.manhwaweb",
@@ -88,7 +88,7 @@
       "version_code": 1,
       "lang": "es",
       "content_warning": "MIXED",
-      "path": "sources/manhwaweb.tkext.json"
+      "path": "sources/es/manhwaweb.tkext.json"
     }
   ]
 }
