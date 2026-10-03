@@ -73,6 +73,20 @@
       "version_code": 2,
       "content_warning": "MIXED",
       "path": "sources/es/mangadex.tkext.json"
+    },
+    {
+      "id": "es.m440",
+      "name": "M440",
+      "version_code": 1,
+      "lang": "es",
+      "path": "sources/es.m440.tkext.json"
+    },
+    {
+      "id": "es.manhwaweb",
+      "name": "ManhwaWeb",
+      "version_code": 1,
+      "lang": "es",
+      "path": "sources/es.manhwaweb.tkext.json"
     }
   ]
 }

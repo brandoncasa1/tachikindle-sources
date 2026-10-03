@@ -1,0 +1,17 @@
+{
+  "$schema": "tachikindle-extension-1.0",
+  "id": "es.manhwaweb",
+  "name": "ManhwaWeb",
+  "lang": "es",
+  "base_url": "https://manhwaweb.com",
+  "version_code": 1,
+  "source_script": "sources/en/manhwaweb_script",
+  "content_warning": "SAFE",
+  "endpoints": {},
+  "selectors": {
+    "manga_list_item": null, "manga_title": null, "manga_url": null,
+    "details_title": null, "chapter_item": null, "chapter_title": null,
+    "chapter_url": null, "page_image": null
+  },
+  "pagination": { "strategy": "fixed_page_size", "page_size": 20 }
+}
