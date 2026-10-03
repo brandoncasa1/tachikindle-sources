@@ -19,6 +19,7 @@
     "user_agent": "TachiKindle/1.0 (KOReader manga plugin; +https://github.com/) MangaDexSource/1.0",
     "extra_headers": {
       "Accept": "application/json"
+    
     }
   },
   "endpoints": {
