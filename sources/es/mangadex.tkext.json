@@ -4,7 +4,7 @@
   "name": "MangaDex (ES)",
   "lang": "es",
   "base_url": "https://api.mangadex.org",
-  "version_code": 1,
+  "version_code": 2,
   "source_script": "MangaDexEs.lua",
   "content_warning": "MIXED",
   "_notes": [

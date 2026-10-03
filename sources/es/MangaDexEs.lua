@@ -87,9 +87,11 @@ end
 -- present, else the first title of any language, else "Unknown".
 local function pickTitle(attrs)
     if not attrs then return "Unknown" end
-    if attrs.title and attrs.title.en then return attrs.title.en end
-    for _, alt in ipairs(attrs.altTitles or {}) do
-        if alt.en then return alt.en end
+    for _, lang in ipairs({ "es", "es-la", "en" }) do
+        if attrs.title and attrs.title[lang] then return attrs.title[lang] end
+        for _, alt in ipairs(attrs.altTitles or {}) do
+            if alt[lang] then return alt[lang] end
+        end
     end
     if attrs.title then
         for _, v in pairs(attrs.title) do
@@ -124,6 +126,8 @@ function Source.fetch_manga_list(source, endpoint_name, page, query)
         { "limit", tostring(PAGE_SIZE) },
         { "offset", tostring(offset) },
         { "includes[]", "cover_art" },
+        { "availableTranslatedLanguage[]", "es-la" },
+        { "availableTranslatedLanguage[]", "es" },
     }
     if endpoint_name == "popular" then
         table.insert(params, { "order[followedCount]", "desc" })
